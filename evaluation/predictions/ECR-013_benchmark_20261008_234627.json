@@ -1,0 +1,55 @@
+{
+  "system": "Aureon Autonomous AI-PLM Agent",
+  "model": "gpt-6-luna",
+  "ecr_id": "ECR-013",
+  "benchmark_mode": true,
+  "created_at": "2026-10-08T23:46:27.901336",
+  "metrics": {
+    "reasoning_cycles": 6,
+    "tool_calls_requested": 21,
+    "tool_calls_executed": 21,
+    "blocked_calls": 0,
+    "benchmark_withheld_results": 0,
+    "cache_hits": 0,
+    "tool_errors": 0,
+    "input_tokens": 21354,
+    "output_tokens": 3393,
+    "total_tokens": 24747,
+    "elapsed_seconds": 55.158
+  },
+  "prediction": {
+    "ecr_id": "ECR-013",
+    "predicted_impacts": [
+      {
+        "entity_id": "FRM-001",
+        "impact_level": "Direct",
+        "confidence": "Confirmed",
+        "reason": "ECR-013 names the Main Frame as its primary component and specifies a reinforced bracket."
+      },
+      {
+        "entity_id": "BAT-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "The battery is mounted on the frame and has a recorded mass of 17.5 kg; verify mounting and retention compatibility."
+      },
+      {
+        "entity_id": "ENC-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "The enclosure is mounted on the frame and houses the battery; verify bracket clearance and assembly compatibility."
+      },
+      {
+        "entity_id": "REQ-008",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "The high-criticality maximum vehicle mass requirement may need reassessment if the reinforcement changes frame mass."
+      },
+      {
+        "entity_id": "PROD-X1",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "The changed frame is recorded on the released product BOM, so product configuration disposition may be required."
+      }
+    ]
+  }
+}

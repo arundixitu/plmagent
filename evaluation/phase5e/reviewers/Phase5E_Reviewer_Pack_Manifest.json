@@ -1,0 +1,40 @@
+{
+  "phase": "5E.1A",
+  "name": "Prospective Multi-Reviewer Blind Labeling Pack",
+  "created_at": "2026-10-09T21:55:02.717890",
+  "source_template": "D:\\Aureon_PLMAgent\\evaluation\\phase5e\\Phase5E_Unseen_Expert_Labeling_Template.xlsx",
+  "source_template_sha256": "e69f297f1c0928dae4a47edb7a6142d20156ef7bc00e899e30120d37faa752bb",
+  "prospective_ecrs": [
+    "ECR-002",
+    "ECR-003",
+    "ECR-010",
+    "ECR-011",
+    "ECR-014"
+  ],
+  "reviewers": [
+    "Reviewer_A",
+    "Reviewer_B",
+    "Reviewer_C"
+  ],
+  "reviewer_files": {
+    "Reviewer_A": {
+      "file": "Phase5E_Reviewer_A.xlsx",
+      "sha256_initial": "ed57301256bc2e1e18f377b452718c52e2d5cdae3259ae5328b8631e940477d0"
+    },
+    "Reviewer_B": {
+      "file": "Phase5E_Reviewer_B.xlsx",
+      "sha256_initial": "c9c8a2d83721301dde5203a6a0b05a52e4b46bfa35ae613386e9ff616f76b959"
+    },
+    "Reviewer_C": {
+      "file": "Phase5E_Reviewer_C.xlsx",
+      "sha256_initial": "c2b694dba5b9d12b072ba622158e5cda49f664b45bae8afc9c77bf7242fcd4dc"
+    }
+  },
+  "consensus_file": "Phase5E_Consensus.xlsx",
+  "consensus_sha256_initial": "b05ff483206d444a9a2e0ffc6d6b72534e88b4eb48fa3deb68b43d405b48894d",
+  "protocol_file": "Phase5E_Reviewer_Protocol.txt",
+  "independent_review_status": "NOT STARTED",
+  "consensus_status": "NOT STARTED",
+  "agent_evaluation_allowed": false,
+  "next_phase": "5E.1B - Inter-rater Agreement Analysis"
+}

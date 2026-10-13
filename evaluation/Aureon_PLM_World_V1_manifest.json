@@ -1,0 +1,125 @@
+{
+    "baseline_name": "Aureon E-Move X1 PLM World V1",
+    "status": "FROZEN",
+    "created_at": "2026-10-05T23:28:13",
+    "production_ground_truth_policy": "99_Ground_Truth_Impact_Matrix.xlsx is evaluator-only and must never be exposed to production RAG, tools, agent prompts, or runtime reasoning.",
+    "discovery_ecrs": [
+        "ECR-002",
+        "ECR-003",
+        "ECR-010",
+        "ECR-011",
+        "ECR-014"
+    ],
+    "files": [
+        {
+            "file_name": "01_Company_Profile.xlsx",
+            "sha256": "238bbcf64042302bde412e9c820fffd98293614712381f1d23c3655c607cb008",
+            "size_bytes": 6434
+        },
+        {
+            "file_name": "02_Strategy_and_PLM_Objectives.xlsx",
+            "sha256": "e5490bd916fed779476700aaf70e012c2b916cb54c7a036e49c50f1a824f7706",
+            "size_bytes": 6791
+        },
+        {
+            "file_name": "03_Product_Family.xlsx",
+            "sha256": "2a96602c40258adf295585bc9feb303dc006a33faacb6bbcdca4fe9924082d04",
+            "size_bytes": 6328
+        },
+        {
+            "file_name": "04_Component_Master.xlsx",
+            "sha256": "0aa8e60f3dc976d17d35e5eb43e656db9f0d181ae5d6787c73dfe20848c804c1",
+            "size_bytes": 7195
+        },
+        {
+            "file_name": "05_Product_Relationships.xlsx",
+            "sha256": "d3d2e93cbf57b5c75f077735ff273c3da8407fc9ff60e793855876eea2a03a10",
+            "size_bytes": 6614
+        },
+        {
+            "file_name": "06_Product_Requirements.xlsx",
+            "sha256": "872cb096ad7ae828bf167588a9081d4bb1f555e3b39ee4dd87f51a3cfe7125a0",
+            "size_bytes": 7108
+        },
+        {
+            "file_name": "07_BOM.xlsx",
+            "sha256": "954cf8132d18e9a4e8ae7fc995b7e30f35a34035705b8e7c48093a6d5e9f33af",
+            "size_bytes": 7196
+        },
+        {
+            "file_name": "08_Design_Specifications.xlsx",
+            "sha256": "59bdac24152b732dc288f828d1f123f2f07e7b4f795e6c51e5b580dd79c74720",
+            "size_bytes": 6843
+        },
+        {
+            "file_name": "09_Supplier_Records.xlsx",
+            "sha256": "0fd87717b3ab6c3ade13da9e759bee08e63fa213ae4d1212dabfd0a7f8ad2f73",
+            "size_bytes": 6431
+        },
+        {
+            "file_name": "10_Engineering_Changes.xlsx",
+            "sha256": "cc7cf3e47e1ad1a2a3c47b4d43da02b8857c7190b0ddbd7f7b53f8c46361a848",
+            "size_bytes": 6933
+        },
+        {
+            "file_name": "11_Change_Impact_Links.xlsx",
+            "sha256": "cf3876773758b8bddad76c5aa5f850d9cabe2d06c330805c474340b30753fb18",
+            "size_bytes": 10055
+        },
+        {
+            "file_name": "12_Manufacturing_Records.xlsx",
+            "sha256": "28f2be83790d471349f2dc541a5b6ad7e552b6f0395c15f57614e16aa515e782",
+            "size_bytes": 6458
+        },
+        {
+            "file_name": "13_Test_Validation_Records.xlsx",
+            "sha256": "fcbdd8b7900722c69d6500f1d4d6eaf9f9fe2e10644304b940901f897431acef",
+            "size_bytes": 6402
+        },
+        {
+            "file_name": "14_Service_Records.xlsx",
+            "sha256": "bdfa7746aec420943a369f4b317cdf2f9d4b48139b2799a1c8e7aaf987c6b445",
+            "size_bytes": 6614
+        },
+        {
+            "file_name": "15_Field_Failure_Records.xlsx",
+            "sha256": "69ca58a5ad35684cf5aa38ff73100692954095366939bad3308648b08d4a13d6",
+            "size_bytes": 6600
+        },
+        {
+            "file_name": "16_Document_Control.xlsx",
+            "sha256": "dd4d69dc0fa4d2c3db2b5a7329f76b77037677a0e1cda92251837854ec12e2c3",
+            "size_bytes": 6520
+        },
+        {
+            "file_name": "17_Data_Dictionary.xlsx",
+            "sha256": "8f6790c8ddbd97152aaaea488a25744ca7f5c2995cf38190d08227e68f4872e7",
+            "size_bytes": 6429
+        },
+        {
+            "file_name": "18_Relationship_Matrix.xlsx",
+            "sha256": "9d2a472c317b088b091bac9180aad9de43cdbf17c94929007ad45ae191a07ee8",
+            "size_bytes": 6812
+        },
+        {
+            "file_name": "19_Agent_Tool_Registry.xlsx",
+            "sha256": "f5fc67f403fd2a8bbad2c8f9f98687956807f40a9933472619212d19f7f5e834",
+            "size_bytes": 6562
+        },
+        {
+            "file_name": "20_Student_Learning_Cases.xlsx",
+            "sha256": "d3a410d2509ab79b64bec0c239adb971d3836afe16e04e3edb2298a19c5c986d",
+            "size_bytes": 6539
+        },
+        {
+            "file_name": "99_Ground_Truth_Impact_Matrix.xlsx",
+            "sha256": "24c93339c6ce19a7f81a0215a033259e5dd24778e453511c6849b4e2d23df255",
+            "size_bytes": 6527
+        },
+        {
+            "file_name": "Aureon_EMove_X1_PLM_Agent_Dataset_V1_COMPLETE.xlsx",
+            "sha256": "295734ecb1281c135ea97aa0b1846a1701acaba1f82396bb52ddd31081210b15",
+            "size_bytes": 35319
+        }
+    ]
+}

@@ -1,0 +1,471 @@
+{
+  "benchmark_name": "Aureon Autonomous AI-PLM Held-Out Benchmark",
+  "benchmark_phase": "5C.2",
+  "development_case_excluded": "ECR-001",
+  "held_out_ecrs": [
+    "ECR-004",
+    "ECR-005",
+    "ECR-006",
+    "ECR-007",
+    "ECR-008",
+    "ECR-009",
+    "ECR-013",
+    "ECR-015",
+    "ECR-016"
+  ],
+  "model": "gpt-6-luna",
+  "suite_started_at": "2026-10-08T23:39:18.282365",
+  "suite_completed_at": "2026-10-08T23:48:48.051510",
+  "agent_file": "D:\\Aureon_PLMAgent\\agent\\tool_calling_agent.py",
+  "frozen_agent_sha256": "78a43c76a09785863af5360388dc58f4b591147b9ccbb3cdd731f41bd9fd7e14",
+  "final_agent_sha256": "78a43c76a09785863af5360388dc58f4b591147b9ccbb3cdd731f41bd9fd7e14",
+  "agent_unchanged_during_suite": true,
+  "total_suite_elapsed_seconds": 569.769,
+  "case_results": [
+    {
+      "ecr_id": "ECR-004",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-004_benchmark_20261008_234014.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-004_evaluation_20261008_234014.json",
+      "predicted_count": 9,
+      "ground_truth_count": 9,
+      "tp": 6,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666,
+      "true_positive_entities": [
+        "BAT-001",
+        "FAN-001",
+        "MFG-006",
+        "REQ-013",
+        "TEST-004",
+        "THM-001"
+      ],
+      "false_positive_entities": [
+        "DOC-006",
+        "PROD-X1",
+        "SUP-003"
+      ],
+      "false_negative_entities": [
+        "ENC-001",
+        "FRM-001",
+        "REQ-008"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 6,
+        "tool_calls_requested": 21,
+        "tool_calls_executed": 21,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 22468,
+        "output_tokens": 4136,
+        "total_tokens": 26604,
+        "elapsed_seconds": 55.994
+      },
+      "case_elapsed_seconds": 56.02
+    },
+    {
+      "ecr_id": "ECR-005",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-005_benchmark_20261008_234135.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-005_evaluation_20261008_234135.json",
+      "predicted_count": 11,
+      "ground_truth_count": 8,
+      "tp": 5,
+      "fp": 6,
+      "fn": 3,
+      "precision": 0.45454545454545453,
+      "recall": 0.625,
+      "f1": 0.5263157894736842,
+      "true_positive_entities": [
+        "BAT-001",
+        "CHG-001",
+        "CHR-001",
+        "REQ-017",
+        "TEST-005"
+      ],
+      "false_positive_entities": [
+        "BMS-001",
+        "MFG-007",
+        "PROD-X1",
+        "REQ-007",
+        "SUP-006",
+        "THM-001"
+      ],
+      "false_negative_entities": [
+        "CAB-001",
+        "CON-001",
+        "REQ-005"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 9,
+        "tool_calls_requested": 28,
+        "tool_calls_executed": 28,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 37750,
+        "output_tokens": 5899,
+        "total_tokens": 43649,
+        "elapsed_seconds": 80.852
+      },
+      "case_elapsed_seconds": 80.875
+    },
+    {
+      "ecr_id": "ECR-006",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-006_benchmark_20261008_234236.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-006_evaluation_20261008_234236.json",
+      "predicted_count": 7,
+      "ground_truth_count": 9,
+      "tp": 4,
+      "fp": 3,
+      "fn": 5,
+      "precision": 0.5714285714285714,
+      "recall": 0.4444444444444444,
+      "f1": 0.5,
+      "true_positive_entities": [
+        "CAB-001",
+        "INV-001",
+        "MTR-001",
+        "REQ-006"
+      ],
+      "false_positive_entities": [
+        "PROD-X1",
+        "REQ-004",
+        "REQ-019"
+      ],
+      "false_negative_entities": [
+        "BAT-001",
+        "CON-001",
+        "REQ-005",
+        "SW-001",
+        "TEST-006"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 7,
+        "tool_calls_requested": 25,
+        "tool_calls_executed": 25,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 24924,
+        "output_tokens": 4692,
+        "total_tokens": 29616,
+        "elapsed_seconds": 61.429
+      },
+      "case_elapsed_seconds": 61.449
+    },
+    {
+      "ecr_id": "ECR-007",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-007_benchmark_20261008_234334.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-007_evaluation_20261008_234334.json",
+      "predicted_count": 8,
+      "ground_truth_count": 8,
+      "tp": 3,
+      "fp": 5,
+      "fn": 5,
+      "precision": 0.375,
+      "recall": 0.375,
+      "f1": 0.375,
+      "true_positive_entities": [
+        "INV-001",
+        "MTR-001",
+        "SW-001"
+      ],
+      "false_positive_entities": [
+        "PROD-X1",
+        "REQ-006",
+        "SPEC-009",
+        "SUP-005",
+        "TEST-006"
+      ],
+      "false_negative_entities": [
+        "BAT-001",
+        "CAB-001",
+        "CON-001",
+        "REQ-005",
+        "TEST-007"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 6,
+        "tool_calls_requested": 23,
+        "tool_calls_executed": 23,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 19833,
+        "output_tokens": 4445,
+        "total_tokens": 24278,
+        "elapsed_seconds": 57.862
+      },
+      "case_elapsed_seconds": 57.885
+    },
+    {
+      "ecr_id": "ECR-008",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-008_benchmark_20261008_234429.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-008_evaluation_20261008_234429.json",
+      "predicted_count": 10,
+      "ground_truth_count": 9,
+      "tp": 5,
+      "fp": 5,
+      "fn": 4,
+      "precision": 0.5,
+      "recall": 0.5555555555555556,
+      "f1": 0.5263157894736842,
+      "true_positive_entities": [
+        "CAB-001",
+        "CON-001",
+        "MFG-008",
+        "REQ-005",
+        "TEST-008"
+      ],
+      "false_positive_entities": [
+        "BOM-X1-008",
+        "DOC-007",
+        "SUP-008",
+        "TEST-007",
+        "TEST-009"
+      ],
+      "false_negative_entities": [
+        "BAT-001",
+        "FRM-001",
+        "INV-001",
+        "REQ-008"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 6,
+        "tool_calls_requested": 23,
+        "tool_calls_executed": 23,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 20943,
+        "output_tokens": 3989,
+        "total_tokens": 24932,
+        "elapsed_seconds": 55.359
+      },
+      "case_elapsed_seconds": 55.378
+    },
+    {
+      "ecr_id": "ECR-009",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-009_benchmark_20261008_234532.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-009_evaluation_20261008_234532.json",
+      "predicted_count": 12,
+      "ground_truth_count": 7,
+      "tp": 6,
+      "fp": 6,
+      "fn": 1,
+      "precision": 0.5,
+      "recall": 0.8571428571428571,
+      "f1": 0.631578947368421,
+      "true_positive_entities": [
+        "BAT-001",
+        "CAB-001",
+        "CON-001",
+        "MFG-009",
+        "REQ-005",
+        "TEST-009"
+      ],
+      "false_positive_entities": [
+        "BOM-X1-007",
+        "DOC-008",
+        "PROD-X1",
+        "SUP-007",
+        "TEST-007",
+        "TEST-008"
+      ],
+      "false_negative_entities": [
+        "INV-001"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 6,
+        "tool_calls_requested": 25,
+        "tool_calls_executed": 25,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 22927,
+        "output_tokens": 4902,
+        "total_tokens": 27829,
+        "elapsed_seconds": 62.813
+      },
+      "case_elapsed_seconds": 62.835
+    },
+    {
+      "ecr_id": "ECR-013",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-013_benchmark_20261008_234627.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-013_evaluation_20261008_234627.json",
+      "predicted_count": 5,
+      "ground_truth_count": 7,
+      "tp": 4,
+      "fp": 1,
+      "fn": 3,
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "f1": 0.6666666666666666,
+      "true_positive_entities": [
+        "BAT-001",
+        "ENC-001",
+        "FRM-001",
+        "REQ-008"
+      ],
+      "false_positive_entities": [
+        "PROD-X1"
+      ],
+      "false_negative_entities": [
+        "MFG-010",
+        "SRV-010",
+        "TEST-010"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 6,
+        "tool_calls_requested": 21,
+        "tool_calls_executed": 21,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 21354,
+        "output_tokens": 3393,
+        "total_tokens": 24747,
+        "elapsed_seconds": 55.158
+      },
+      "case_elapsed_seconds": 55.182
+    },
+    {
+      "ecr_id": "ECR-015",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-015_benchmark_20261008_234738.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-015_evaluation_20261008_234738.json",
+      "predicted_count": 16,
+      "ground_truth_count": 14,
+      "tp": 6,
+      "fp": 10,
+      "fn": 8,
+      "precision": 0.375,
+      "recall": 0.42857142857142855,
+      "f1": 0.39999999999999997,
+      "true_positive_entities": [
+        "BAT-001",
+        "BMS-001",
+        "CHR-001",
+        "ENC-001",
+        "SUP-001",
+        "THM-001"
+      ],
+      "false_positive_entities": [
+        "CAB-001",
+        "CON-001",
+        "FRM-001",
+        "MFG-001",
+        "MFG-002",
+        "PROD-X1",
+        "REQ-002",
+        "REQ-003",
+        "REQ-008",
+        "REQ-014"
+      ],
+      "false_negative_entities": [
+        "FAN-001",
+        "REQ-004",
+        "REQ-013",
+        "REQ-015",
+        "SNS-001",
+        "SUP-002",
+        "SW-001",
+        "TEST-015"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 6,
+        "tool_calls_requested": 24,
+        "tool_calls_executed": 24,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 21306,
+        "output_tokens": 5437,
+        "total_tokens": 26743,
+        "elapsed_seconds": 70.178
+      },
+      "case_elapsed_seconds": 70.209
+    },
+    {
+      "ecr_id": "ECR-016",
+      "status": "success",
+      "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-016_benchmark_20261008_234848.json",
+      "evaluation_file": "D:\\Aureon_PLMAgent\\evaluation\\results\\ECR-016_evaluation_20261008_234848.json",
+      "predicted_count": 6,
+      "ground_truth_count": 10,
+      "tp": 4,
+      "fp": 2,
+      "fn": 6,
+      "precision": 0.6666666666666666,
+      "recall": 0.4,
+      "f1": 0.5,
+      "true_positive_entities": [
+        "BAT-001",
+        "ENC-001",
+        "MFG-016",
+        "THM-001"
+      ],
+      "false_positive_entities": [
+        "BOM-X1-003",
+        "REQ-010"
+      ],
+      "false_negative_entities": [
+        "FRM-001",
+        "REQ-004",
+        "REQ-008",
+        "REQ-013",
+        "SRV-009",
+        "TEST-016"
+      ],
+      "agent_metrics": {
+        "reasoning_cycles": 8,
+        "tool_calls_requested": 26,
+        "tool_calls_executed": 26,
+        "blocked_calls": 0,
+        "benchmark_withheld_results": 0,
+        "cache_hits": 0,
+        "tool_errors": 0,
+        "input_tokens": 31917,
+        "output_tokens": 4943,
+        "total_tokens": 36860,
+        "elapsed_seconds": 69.881
+      },
+      "case_elapsed_seconds": 69.905
+    }
+  ],
+  "aggregate_metrics": {
+    "successful_cases": 9,
+    "failed_cases": 0,
+    "macro_precision": 0.5454785954785955,
+    "macro_recall": 0.5470899470899471,
+    "macro_f1": 0.5325048732943469,
+    "micro_tp": 43,
+    "micro_fp": 41,
+    "micro_fn": 38,
+    "micro_precision": 0.5119047619047619,
+    "micro_recall": 0.5308641975308642,
+    "micro_f1": 0.5212121212121211,
+    "mean_tool_calls": 24.0,
+    "mean_reasoning_cycles": 6.666666666666667,
+    "mean_total_tokens": 29473.11111111111,
+    "mean_runtime_seconds": 63.280666666666676
+  }
+}

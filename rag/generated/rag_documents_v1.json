@@ -1,0 +1,1519 @@
+[
+    {
+        "source_file": "01_Company_Profile.xlsx",
+        "record_id": "COMPANY-1",
+        "category": "Company",
+        "text": "Company_ID: AUREON | Company_Name: Aureon Mobility Systems Pvt. Ltd. | Founded: 2018 | Headquarters: Bengaluru, India | Industry: Electric Mobility | Vision: Create intelligent, reliable and sustainable mobility products through engineering excellence and connected lifecycle management. | Mission: Design, manufacture and continuously improve electric mobility products using data-driven engineering and integrated PLM. | PLM_Vision: Every product decision shall be traceable across the complete product lifecycle. | PLM_Motto: ONE PRODUCT — ONE CONNECTED LIFECYCLE.",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-1",
+        "category": "Strategy",
+        "text": "ID: STR-001 | Type: Strategy | Theme: Product performance | Statement: Deliver competitive range, power and usability | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-2",
+        "category": "Strategy",
+        "text": "ID: STR-002 | Type: Strategy | Theme: Safety before release | Statement: Prevent unsafe product configurations from release | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-3",
+        "category": "Strategy",
+        "text": "ID: STR-003 | Type: Strategy | Theme: Quality excellence | Statement: Reduce field failures and manufacturing variation | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-4",
+        "category": "Strategy",
+        "text": "ID: STR-004 | Type: Strategy | Theme: Faster development | Statement: Reduce engineering change cycle time | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-5",
+        "category": "Strategy",
+        "text": "ID: STR-005 | Type: Strategy | Theme: Lifecycle integration | Statement: Connect design, manufacturing, operation and service information | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-6",
+        "category": "Strategy",
+        "text": "ID: STR-006 | Type: Strategy | Theme: Continuous improvement | Statement: Use field and service data to improve products | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-7",
+        "category": "Strategy",
+        "text": "ID: PLM-OBJ-001 | Type: PLM Objective | Theme: Single source of truth | Statement: Maintain consistent product information across lifecycle functions | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-8",
+        "category": "Strategy",
+        "text": "ID: PLM-OBJ-002 | Type: PLM Objective | Theme: Traceability | Statement: Trace requirements to design, BOM, tests, manufacturing and service | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-9",
+        "category": "Strategy",
+        "text": "ID: PLM-OBJ-003 | Type: PLM Objective | Theme: Engineering change control | Statement: Assess and control lifecycle impacts before release | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-10",
+        "category": "Strategy",
+        "text": "ID: PLM-OBJ-004 | Type: PLM Objective | Theme: Configuration management | Statement: Maintain as-designed, as-built and as-maintained configurations | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-11",
+        "category": "Strategy",
+        "text": "ID: PLM-OBJ-005 | Type: PLM Objective | Theme: Knowledge reuse | Statement: Reuse prior engineering and service knowledge | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "02_Strategy_and_PLM_Objectives.xlsx",
+        "record_id": "STRATEGY-12",
+        "category": "Strategy",
+        "text": "ID: PLM-OBJ-006 | Type: PLM Objective | Theme: Closed-loop improvement | Statement: Feed field and service evidence back into engineering | Status: Active",
+        "metadata": {}
+    },
+    {
+        "source_file": "03_Product_Family.xlsx",
+        "record_id": "PROD-X1",
+        "category": "Product",
+        "text": "Product_ID: PROD-X1 | Product_Name: Aureon E-Move X1 | Type: Urban electric scooter | Lifecycle_Status: Production | Baseline: 72 V, 40 Ah, 8 kW, 100 km target | Target_Year: 2026",
+        "metadata": {}
+    },
+    {
+        "source_file": "03_Product_Family.xlsx",
+        "record_id": "PROD-X2",
+        "category": "Product",
+        "text": "Product_ID: PROD-X2 | Product_Name: Aureon E-Move X2 | Type: Higher-range derivative | Lifecycle_Status: Concept | Baseline: Higher range variant | Target_Year: 2027",
+        "metadata": {}
+    },
+    {
+        "source_file": "03_Product_Family.xlsx",
+        "record_id": "PROD-X1-LR",
+        "category": "Product",
+        "text": "Product_ID: PROD-X1-LR | Product_Name: Aureon E-Move X1-LR | Type: Long-range variant | Lifecycle_Status: Concept | Baseline: Long-range derivative | Target_Year: 2027",
+        "metadata": {}
+    },
+    {
+        "source_file": "03_Product_Family.xlsx",
+        "record_id": "PROD-X1-C",
+        "category": "Product",
+        "text": "Product_ID: PROD-X1-C | Product_Name: Aureon E-Move X1-C | Type: Connected fleet variant | Lifecycle_Status: Concept | Baseline: Commercial/fleet variant | Target_Year: 2027",
+        "metadata": {}
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-001",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-001. Title: Increase battery capacity. Primary component: BAT-001. Change description: 40 Ah -> 50 Ah. Risk: High. Status: Open.",
+        "metadata": {
+            "component_id": "BAT-001",
+            "risk": "High",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-002",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-002. Title: Increase battery energy density. Primary component: BAT-001. Change description: Baseline -> higher energy density cell. Risk: Medium. Status: Closed.",
+        "metadata": {
+            "component_id": "BAT-001",
+            "risk": "Medium",
+            "status": "Closed"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-003",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-003. Title: Reduce battery enclosure mass. Primary component: ENC-001. Change description: Baseline -> reduced mass concept. Risk: Medium. Status: Closed.",
+        "metadata": {
+            "component_id": "ENC-001",
+            "risk": "Medium",
+            "status": "Closed"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-004",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-004. Title: Increase cooling plate thickness. Primary component: THM-001. Change description: 3 mm -> 4 mm. Risk: Medium. Status: Open.",
+        "metadata": {
+            "component_id": "THM-001",
+            "risk": "Medium",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-005",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-005. Title: Increase charger power. Primary component: CHR-001. Change description: 3.3 kW -> 5 kW. Risk: High. Status: Open.",
+        "metadata": {
+            "component_id": "CHR-001",
+            "risk": "High",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-006",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-006. Title: Increase motor peak power. Primary component: MTR-001. Change description: 8 kW -> 10 kW. Risk: High. Status: Open.",
+        "metadata": {
+            "component_id": "MTR-001",
+            "risk": "High",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-007",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-007. Title: Increase inverter current. Primary component: INV-001. Change description: 150 A -> 180 A. Risk: High. Status: Open.",
+        "metadata": {
+            "component_id": "INV-001",
+            "risk": "High",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-008",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-008. Title: Increase HV cable area. Primary component: CAB-001. Change description: 16 mm2 -> 25 mm2. Risk: High. Status: Open.",
+        "metadata": {
+            "component_id": "CAB-001",
+            "risk": "High",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-009",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-009. Title: Increase connector rating. Primary component: CON-001. Change description: 120 A -> 180 A. Risk: High. Status: Open.",
+        "metadata": {
+            "component_id": "CON-001",
+            "risk": "High",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-010",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-010. Title: Update battery thermal control strategy. Primary component: SW-001. Change description: Baseline -> revised strategy. Risk: Medium. Status: Closed.",
+        "metadata": {
+            "component_id": "SW-001",
+            "risk": "Medium",
+            "status": "Closed"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-011",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-011. Title: Add battery temperature sensor. Primary component: SNS-001. Change description: 2 -> 4 sensors. Risk: Medium. Status: Closed.",
+        "metadata": {
+            "component_id": "SNS-001",
+            "risk": "Medium",
+            "status": "Closed"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-013",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-013. Title: Reinforce battery mounting. Primary component: FRM-001. Change description: Baseline -> reinforced bracket. Risk: Medium. Status: Open.",
+        "metadata": {
+            "component_id": "FRM-001",
+            "risk": "Medium",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-014",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-014. Title: Update vehicle control software. Primary component: SW-001. Change description: Rev E -> Rev F. Risk: Medium. Status: Closed.",
+        "metadata": {
+            "component_id": "SW-001",
+            "risk": "Medium",
+            "status": "Closed"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-015",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-015. Title: Change battery cell chemistry. Primary component: BAT-001. Change description: NMC -> LFP. Risk: Critical. Status: Open.",
+        "metadata": {
+            "component_id": "BAT-001",
+            "risk": "Critical",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "10_Engineering_Changes.xlsx",
+        "record_id": "ECR-016",
+        "category": "Engineering Change",
+        "text": "Engineering Change ECR-016. Title: Replace passive vent with pressure relief valve. Primary component: ENC-001. Change description: Passive vent -> pressure relief valve. Risk: Critical. Status: Open.",
+        "metadata": {
+            "component_id": "ENC-001",
+            "risk": "Critical",
+            "status": "Open"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0001",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0001 for engineering change ECR-001. Affected entity: BAT-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0002",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0002 for engineering change ECR-001. Affected entity: BMS-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "BMS-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0003",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0003 for engineering change ECR-001. Affected entity: ENC-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "ENC-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0004",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0004 for engineering change ECR-001. Affected entity: THM-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "THM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0005",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0005 for engineering change ECR-001. Affected entity: FAN-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "FAN-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0006",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0006 for engineering change ECR-001. Affected entity: CAB-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "CAB-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0007",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0007 for engineering change ECR-001. Affected entity: CON-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "CON-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0008",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0008 for engineering change ECR-001. Affected entity: CHR-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "CHR-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0009",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0009 for engineering change ECR-001. Affected entity: FRM-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "FRM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0010",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0010 for engineering change ECR-001. Affected entity: SW-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "SW-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0011",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0011 for engineering change ECR-001. Affected entity: SNS-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "SNS-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0012",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0012 for engineering change ECR-001. Affected entity: REQ-001. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "REQ-001",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0013",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0013 for engineering change ECR-001. Affected entity: REQ-003. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "REQ-003",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0014",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0014 for engineering change ECR-001. Affected entity: REQ-008. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "REQ-008",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0015",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0015 for engineering change ECR-001. Affected entity: REQ-013. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "REQ-013",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0016",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0016 for engineering change ECR-001. Affected entity: REQ-014. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "REQ-014",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0017",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0017 for engineering change ECR-001. Affected entity: REQ-015. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "REQ-015",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0018",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0018 for engineering change ECR-001. Affected entity: REQ-016. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "REQ-016",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0019",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0019 for engineering change ECR-001. Affected entity: TEST-001. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "TEST-001",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0020",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0020 for engineering change ECR-001. Affected entity: TEST-004. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "TEST-004",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0021",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0021 for engineering change ECR-001. Affected entity: MFG-002. Impact dimension: Manufacturing. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "MFG-002",
+            "impact_dimension": "Manufacturing"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0022",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0022 for engineering change ECR-001. Affected entity: SRV-001. Impact dimension: Service. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-001",
+            "affected_entity": "SRV-001",
+            "impact_dimension": "Service"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0023",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0023 for engineering change ECR-004. Affected entity: THM-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "THM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0024",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0024 for engineering change ECR-004. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0025",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0025 for engineering change ECR-004. Affected entity: ENC-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "ENC-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0026",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0026 for engineering change ECR-004. Affected entity: FRM-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "FRM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0027",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0027 for engineering change ECR-004. Affected entity: FAN-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "FAN-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0028",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0028 for engineering change ECR-004. Affected entity: REQ-013. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "REQ-013",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0029",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0029 for engineering change ECR-004. Affected entity: REQ-008. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "REQ-008",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0030",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0030 for engineering change ECR-004. Affected entity: TEST-004. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "TEST-004",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0031",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0031 for engineering change ECR-004. Affected entity: MFG-006. Impact dimension: Manufacturing. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-004",
+            "affected_entity": "MFG-006",
+            "impact_dimension": "Manufacturing"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0032",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0032 for engineering change ECR-005. Affected entity: CHR-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "CHR-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0033",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0033 for engineering change ECR-005. Affected entity: CHG-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "CHG-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0034",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0034 for engineering change ECR-005. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0035",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0035 for engineering change ECR-005. Affected entity: CAB-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "CAB-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0036",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0036 for engineering change ECR-005. Affected entity: CON-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "CON-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0037",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0037 for engineering change ECR-005. Affected entity: REQ-017. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "REQ-017",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0038",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0038 for engineering change ECR-005. Affected entity: REQ-005. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "REQ-005",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0039",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0039 for engineering change ECR-005. Affected entity: TEST-005. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-005",
+            "affected_entity": "TEST-005",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0040",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0040 for engineering change ECR-006. Affected entity: MTR-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "MTR-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0041",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0041 for engineering change ECR-006. Affected entity: INV-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "INV-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0042",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0042 for engineering change ECR-006. Affected entity: CAB-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "CAB-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0043",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0043 for engineering change ECR-006. Affected entity: CON-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "CON-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0044",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0044 for engineering change ECR-006. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0045",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0045 for engineering change ECR-006. Affected entity: SW-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "SW-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0046",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0046 for engineering change ECR-006. Affected entity: REQ-006. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "REQ-006",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0047",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0047 for engineering change ECR-006. Affected entity: REQ-005. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "REQ-005",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0048",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0048 for engineering change ECR-006. Affected entity: TEST-006. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-006",
+            "affected_entity": "TEST-006",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0049",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0049 for engineering change ECR-007. Affected entity: INV-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "INV-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0050",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0050 for engineering change ECR-007. Affected entity: CAB-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "CAB-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0051",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0051 for engineering change ECR-007. Affected entity: CON-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "CON-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0052",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0052 for engineering change ECR-007. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0053",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0053 for engineering change ECR-007. Affected entity: MTR-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "MTR-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0054",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0054 for engineering change ECR-007. Affected entity: SW-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "SW-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0055",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0055 for engineering change ECR-007. Affected entity: REQ-005. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "REQ-005",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0056",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0056 for engineering change ECR-007. Affected entity: TEST-007. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-007",
+            "affected_entity": "TEST-007",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0057",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0057 for engineering change ECR-008. Affected entity: CAB-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "CAB-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0058",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0058 for engineering change ECR-008. Affected entity: CON-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "CON-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0059",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0059 for engineering change ECR-008. Affected entity: INV-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "INV-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0060",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0060 for engineering change ECR-008. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0061",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0061 for engineering change ECR-008. Affected entity: FRM-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "FRM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0062",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0062 for engineering change ECR-008. Affected entity: REQ-005. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "REQ-005",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0063",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0063 for engineering change ECR-008. Affected entity: REQ-008. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "REQ-008",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0064",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0064 for engineering change ECR-008. Affected entity: TEST-008. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "TEST-008",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0065",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0065 for engineering change ECR-008. Affected entity: MFG-008. Impact dimension: Manufacturing. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-008",
+            "affected_entity": "MFG-008",
+            "impact_dimension": "Manufacturing"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0066",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0066 for engineering change ECR-009. Affected entity: CON-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-009",
+            "affected_entity": "CON-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0067",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0067 for engineering change ECR-009. Affected entity: CAB-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-009",
+            "affected_entity": "CAB-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0068",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0068 for engineering change ECR-009. Affected entity: INV-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-009",
+            "affected_entity": "INV-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0069",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0069 for engineering change ECR-009. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-009",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0070",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0070 for engineering change ECR-009. Affected entity: REQ-005. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-009",
+            "affected_entity": "REQ-005",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0071",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0071 for engineering change ECR-009. Affected entity: TEST-009. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-009",
+            "affected_entity": "TEST-009",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0072",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0072 for engineering change ECR-009. Affected entity: MFG-009. Impact dimension: Manufacturing. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-009",
+            "affected_entity": "MFG-009",
+            "impact_dimension": "Manufacturing"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0073",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0073 for engineering change ECR-015. Affected entity: BAT-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0074",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0074 for engineering change ECR-015. Affected entity: BMS-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "BMS-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0075",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0075 for engineering change ECR-015. Affected entity: ENC-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "ENC-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0076",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0076 for engineering change ECR-015. Affected entity: THM-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "THM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0077",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0077 for engineering change ECR-015. Affected entity: FAN-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "FAN-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0078",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0078 for engineering change ECR-015. Affected entity: CHR-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "CHR-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0079",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0079 for engineering change ECR-015. Affected entity: SW-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "SW-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0080",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0080 for engineering change ECR-015. Affected entity: SNS-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "SNS-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0081",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0081 for engineering change ECR-015. Affected entity: REQ-004. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "REQ-004",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0082",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0082 for engineering change ECR-015. Affected entity: REQ-013. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "REQ-013",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0083",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0083 for engineering change ECR-015. Affected entity: REQ-015. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "REQ-015",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0084",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0084 for engineering change ECR-015. Affected entity: TEST-015. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "TEST-015",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0085",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0085 for engineering change ECR-015. Affected entity: SUP-001. Impact dimension: Supplier. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "SUP-001",
+            "impact_dimension": "Supplier"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0086",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0086 for engineering change ECR-015. Affected entity: SUP-002. Impact dimension: Supplier. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-015",
+            "affected_entity": "SUP-002",
+            "impact_dimension": "Supplier"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0087",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0087 for engineering change ECR-016. Affected entity: ENC-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "ENC-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0088",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0088 for engineering change ECR-016. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0089",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0089 for engineering change ECR-016. Affected entity: THM-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "THM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0090",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0090 for engineering change ECR-016. Affected entity: FRM-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "FRM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0091",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0091 for engineering change ECR-016. Affected entity: REQ-004. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "REQ-004",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0092",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0092 for engineering change ECR-016. Affected entity: REQ-008. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "REQ-008",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0093",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0093 for engineering change ECR-016. Affected entity: REQ-013. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "REQ-013",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0094",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0094 for engineering change ECR-016. Affected entity: TEST-016. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "TEST-016",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0095",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0095 for engineering change ECR-016. Affected entity: MFG-016. Impact dimension: Manufacturing. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "MFG-016",
+            "impact_dimension": "Manufacturing"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0096",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0096 for engineering change ECR-016. Affected entity: SRV-009. Impact dimension: Service. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-016",
+            "affected_entity": "SRV-009",
+            "impact_dimension": "Service"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0097",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0097 for engineering change ECR-013. Affected entity: FRM-001. Impact dimension: Component. Propagation level: Direct. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-013",
+            "affected_entity": "FRM-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0098",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0098 for engineering change ECR-013. Affected entity: BAT-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-013",
+            "affected_entity": "BAT-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0099",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0099 for engineering change ECR-013. Affected entity: ENC-001. Impact dimension: Component. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-013",
+            "affected_entity": "ENC-001",
+            "impact_dimension": "Component"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0100",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0100 for engineering change ECR-013. Affected entity: REQ-008. Impact dimension: Requirement. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-013",
+            "affected_entity": "REQ-008",
+            "impact_dimension": "Requirement"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0101",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0101 for engineering change ECR-013. Affected entity: TEST-010. Impact dimension: Validation. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-013",
+            "affected_entity": "TEST-010",
+            "impact_dimension": "Validation"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0102",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0102 for engineering change ECR-013. Affected entity: MFG-010. Impact dimension: Manufacturing. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-013",
+            "affected_entity": "MFG-010",
+            "impact_dimension": "Manufacturing"
+        }
+    },
+    {
+        "source_file": "11_Change_Impact_Links.xlsx",
+        "record_id": "IMPACT-0103",
+        "category": "Historical Impact",
+        "text": "Historical impact record IMPACT-0103 for engineering change ECR-013. Affected entity: SRV-010. Impact dimension: Service. Propagation level: First/second-order. Status: Expected. Rationale: Relationship and engineering dependency require review.. Recommended action: Validate before release.",
+        "metadata": {
+            "ecr_id": "ECR-013",
+            "affected_entity": "SRV-010",
+            "impact_dimension": "Service"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-001",
+        "category": "Service",
+        "text": "Service record SRV-001. Component: BAT-001. Issue: Reduced range. Service action: Battery diagnosis. Status: Closed. Related engineering change: ECR-001.",
+        "metadata": {
+            "component_id": "BAT-001",
+            "related_ecr": "ECR-001"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-002",
+        "category": "Service",
+        "text": "Service record SRV-002. Component: BMS-001. Issue: SOC mismatch. Service action: BMS log analysis. Status: Closed. Related engineering change: ECR-014.",
+        "metadata": {
+            "component_id": "BMS-001",
+            "related_ecr": "ECR-014"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-003",
+        "category": "Service",
+        "text": "Service record SRV-003. Component: THM-001. Issue: High battery temperature. Service action: Thermal inspection. Status: Closed. Related engineering change: ECR-004.",
+        "metadata": {
+            "component_id": "THM-001",
+            "related_ecr": "ECR-004"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-004",
+        "category": "Service",
+        "text": "Service record SRV-004. Component: CHR-001. Issue: Slow charging. Service action: Charger diagnostics. Status: Closed. Related engineering change: ECR-005.",
+        "metadata": {
+            "component_id": "CHR-001",
+            "related_ecr": "ECR-005"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-005",
+        "category": "Service",
+        "text": "Service record SRV-005. Component: CAB-001. Issue: HV harness heating. Service action: Harness inspection. Status: Open. Related engineering change: ECR-008.",
+        "metadata": {
+            "component_id": "CAB-001",
+            "related_ecr": "ECR-008"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-006",
+        "category": "Service",
+        "text": "Service record SRV-006. Component: CON-001. Issue: Connector heating. Service action: Torque/connector inspection. Status: Open. Related engineering change: ECR-009.",
+        "metadata": {
+            "component_id": "CON-001",
+            "related_ecr": "ECR-009"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-007",
+        "category": "Service",
+        "text": "Service record SRV-007. Component: INV-001. Issue: Inverter thermal fault. Service action: Inverter diagnostics. Status: Closed. Related engineering change: ECR-007.",
+        "metadata": {
+            "component_id": "INV-001",
+            "related_ecr": "ECR-007"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-008",
+        "category": "Service",
+        "text": "Service record SRV-008. Component: MTR-001. Issue: Peak performance below target. Service action: Motor/inverter diagnosis. Status: Open. Related engineering change: ECR-006.",
+        "metadata": {
+            "component_id": "MTR-001",
+            "related_ecr": "ECR-006"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-009",
+        "category": "Service",
+        "text": "Service record SRV-009. Component: ENC-001. Issue: Battery enclosure pressure concern. Service action: Enclosure inspection. Status: Open. Related engineering change: ECR-016.",
+        "metadata": {
+            "component_id": "ENC-001",
+            "related_ecr": "ECR-016"
+        }
+    },
+    {
+        "source_file": "14_Service_Records.xlsx",
+        "record_id": "SRV-010",
+        "category": "Service",
+        "text": "Service record SRV-010. Component: FRM-001. Issue: Battery mounting vibration. Service action: Bracket/frame inspection. Status: Closed. Related engineering change: ECR-013.",
+        "metadata": {
+            "component_id": "FRM-001",
+            "related_ecr": "ECR-013"
+        }
+    }
+]

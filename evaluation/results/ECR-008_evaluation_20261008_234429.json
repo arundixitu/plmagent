@@ -1,0 +1,76 @@
+{
+  "evaluation_system": "Aureon PLM Agent Ground-Truth Evaluator",
+  "evaluation_version": "Phase 5C.1",
+  "evaluated_at": "2026-10-08T23:44:29.901190",
+  "ecr_id": "ECR-008",
+  "gt_id": "GT-006",
+  "ground_truth_risk": "High",
+  "prediction_file": "D:\\Aureon_PLMAgent\\evaluation\\predictions\\ECR-008_benchmark_20261008_234429.json",
+  "benchmark_mode": true,
+  "predicted_entity_count": 10,
+  "ground_truth_entity_count": 9,
+  "predicted_entities": [
+    "BOM-X1-008",
+    "CAB-001",
+    "CON-001",
+    "DOC-007",
+    "MFG-008",
+    "REQ-005",
+    "SUP-008",
+    "TEST-007",
+    "TEST-008",
+    "TEST-009"
+  ],
+  "ground_truth_entities": [
+    "BAT-001",
+    "CAB-001",
+    "CON-001",
+    "FRM-001",
+    "INV-001",
+    "MFG-008",
+    "REQ-005",
+    "REQ-008",
+    "TEST-008"
+  ],
+  "entity_metrics": {
+    "tp": 5,
+    "fp": 5,
+    "fn": 4,
+    "precision": 0.5,
+    "recall": 0.5555555555555556,
+    "f1": 0.5263157894736842,
+    "true_positive_entities": [
+      "CAB-001",
+      "CON-001",
+      "MFG-008",
+      "REQ-005",
+      "TEST-008"
+    ],
+    "false_positive_entities": [
+      "BOM-X1-008",
+      "DOC-007",
+      "SUP-008",
+      "TEST-007",
+      "TEST-009"
+    ],
+    "false_negative_entities": [
+      "BAT-001",
+      "FRM-001",
+      "INV-001",
+      "REQ-008"
+    ]
+  },
+  "agent_execution_metrics": {
+    "reasoning_cycles": 6,
+    "tool_calls_requested": 23,
+    "tool_calls_executed": 23,
+    "blocked_calls": 0,
+    "benchmark_withheld_results": 0,
+    "cache_hits": 0,
+    "tool_errors": 0,
+    "input_tokens": 20943,
+    "output_tokens": 3989,
+    "total_tokens": 24932,
+    "elapsed_seconds": 55.359
+  }
+}

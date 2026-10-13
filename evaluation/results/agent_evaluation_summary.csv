@@ -1,0 +1,11 @@
+Evaluation_Timestamp,ECR_ID,GT_ID,Ground_Truth_Risk,Prediction_File,Predicted_Count,Ground_Truth_Count,TP,FP,FN,Precision,Recall,F1,Reasoning_Cycles,Tool_Calls_Requested,Tool_Calls_Executed,Input_Tokens,Output_Tokens,Total_Tokens,Elapsed_Seconds
+2026-10-08T23:32:06.028295,ECR-001,GT-001,High,D:\Aureon_PLMAgent\evaluation\predictions\ECR-001_benchmark_20261008_232721.json,15,20,12,3,8,0.8,0.6,0.685714,6,26,26,23050,4849,27899,66.209
+2026-10-08T23:40:14.302147,ECR-004,GT-002,Medium,D:\Aureon_PLMAgent\evaluation\predictions\ECR-004_benchmark_20261008_234014.json,9,9,6,3,3,0.666667,0.666667,0.666667,6,21,21,22468,4136,26604,55.994
+2026-10-08T23:41:35.180280,ECR-005,GT-003,High,D:\Aureon_PLMAgent\evaluation\predictions\ECR-005_benchmark_20261008_234135.json,11,8,5,6,3,0.454545,0.625,0.526316,9,28,28,37750,5899,43649,80.852
+2026-10-08T23:42:36.632036,ECR-006,GT-004,High,D:\Aureon_PLMAgent\evaluation\predictions\ECR-006_benchmark_20261008_234236.json,7,9,4,3,5,0.571429,0.444444,0.5,7,25,25,24924,4692,29616,61.429
+2026-10-08T23:43:34.521011,ECR-007,GT-005,High,D:\Aureon_PLMAgent\evaluation\predictions\ECR-007_benchmark_20261008_234334.json,8,8,3,5,5,0.375,0.375,0.375,6,23,23,19833,4445,24278,57.862
+2026-10-08T23:44:29.901190,ECR-008,GT-006,High,D:\Aureon_PLMAgent\evaluation\predictions\ECR-008_benchmark_20261008_234429.json,10,9,5,5,4,0.5,0.555556,0.526316,6,23,23,20943,3989,24932,55.359
+2026-10-08T23:45:32.739791,ECR-009,GT-007,High,D:\Aureon_PLMAgent\evaluation\predictions\ECR-009_benchmark_20261008_234532.json,12,7,6,6,1,0.5,0.857143,0.631579,6,25,25,22927,4902,27829,62.813
+2026-10-08T23:46:27.924371,ECR-013,GT-010,Medium,D:\Aureon_PLMAgent\evaluation\predictions\ECR-013_benchmark_20261008_234627.json,5,7,4,1,3,0.8,0.571429,0.666667,6,21,21,21354,3393,24747,55.158
+2026-10-08T23:47:38.137682,ECR-015,GT-008,Critical,D:\Aureon_PLMAgent\evaluation\predictions\ECR-015_benchmark_20261008_234738.json,16,14,6,10,8,0.375,0.428571,0.4,6,24,24,21306,5437,26743,70.178
+2026-10-08T23:48:48.047642,ECR-016,GT-009,Critical,D:\Aureon_PLMAgent\evaluation\predictions\ECR-016_benchmark_20261008_234848.json,6,10,4,2,6,0.666667,0.4,0.5,8,26,26,31917,4943,36860,69.881

@@ -1,0 +1,552 @@
+{
+  "system": "Aureon Autonomous AI-PLM Agent",
+  "architecture": "D2.2 - Gap-Directed Retrieval + Evidence-Scored Candidate Adjudication",
+  "phase": "5D.2",
+  "model": "gpt-6-luna",
+  "ecr_id": "ECR-002",
+  "benchmark_mode": true,
+  "created_at": "2026-10-09T22:38:16.642216",
+  "scoring_rubric": {
+    "direct_change_evidence": 3,
+    "explicit_relationship": 2,
+    "engineering_consequence": 2,
+    "requirement_validation_support": 1,
+    "lifecycle_action": 1,
+    "context_only": -2
+  },
+  "inclusion_threshold": 4,
+  "provisional_prediction": {
+    "ecr_id": "ECR-002",
+    "predicted_impacts": [
+      {
+        "entity_id": "BAT-001",
+        "impact_level": "Direct",
+        "confidence": "Confirmed",
+        "reason": "ECR-002 names BAT-001 as the primary component and specifies a change to higher-energy-density cells."
+      },
+      {
+        "entity_id": "BMS-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "BAT-001 depends on and is managed by BMS-001; changed-cell limits and monitoring compatibility are not established."
+      },
+      {
+        "entity_id": "THM-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "BAT-001 is cooled by THM-001; changed-cell thermal behavior is unavailable."
+      },
+      {
+        "entity_id": "ENC-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "BAT-001 is housed in ENC-001; new pack dimensions and mass are unspecified."
+      },
+      {
+        "entity_id": "CHR-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "CHR-001 charges BAT-001; compatibility with the changed cells and their charge limits is unverified."
+      },
+      {
+        "entity_id": "FRM-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "BAT-001 is mounted on FRM-001; changed pack mass or dimensions could affect mounting compatibility."
+      },
+      {
+        "entity_id": "REQ-003",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "REQ-003 sets nominal battery energy at 2.88 kWh; the change does not establish whether pack-level energy changes."
+      },
+      {
+        "entity_id": "REQ-014",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "REQ-014 sets a 40 Ah battery capacity baseline that should be checked against the changed cell configuration."
+      },
+      {
+        "entity_id": "REQ-002",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "REQ-002 sets nominal battery voltage at 72 V; preservation of this requirement should be verified."
+      },
+      {
+        "entity_id": "REQ-004",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "REQ-004 requires battery thermal protection, relevant to a cell change whose thermal behavior is unknown."
+      },
+      {
+        "entity_id": "REQ-013",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "REQ-013 requires battery temperature to remain within validated limits; applicability to the changed cells is unverified."
+      },
+      {
+        "entity_id": "PROD-X1",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "PROD-X1 contains BAT-001; review whether the changed pack requires a product configuration update."
+      },
+      {
+        "entity_id": "BOM-X1-001",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "The released BOM records BAT-001 Rev A in PROD-X1; review whether the changed pack requires a BOM revision."
+      },
+      {
+        "entity_id": "SUP-001",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "SUP-001 is the approved supplier recorded for BAT-001; coverage of the changed cell is unverified."
+      },
+      {
+        "entity_id": "MFG-001",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "MFG-001 is the cell-module assembly process associated with BAT-001; suitability for the changed cell is unverified."
+      },
+      {
+        "entity_id": "MFG-002",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "MFG-002 is the battery-pack final assembly process associated with BAT-001; suitability for the changed pack is unverified."
+      }
+    ]
+  },
+  "gap_plan": {
+    "ecr_id": "ECR-002",
+    "gaps": [
+      {
+        "gap_category": "Configuration / documentation",
+        "reason": "The new cell’s electrical, thermal, dimensional, and mass characteristics are unknown; component-linked documents may provide the specifications needed to assess downstream compatibility.",
+        "tool_name": "get_documents",
+        "arguments": {
+          "entity_id": "BAT-001"
+        }
+      },
+      {
+        "gap_category": "Thermal path",
+        "reason": "The cooling plate is directly related, but its downstream dependencies or controls are unknown; these could affect review of battery temperature limits.",
+        "tool_name": "get_related_components",
+        "arguments": {
+          "component_id": "THM-001"
+        }
+      },
+      {
+        "gap_category": "Software / control",
+        "reason": "The BMS manages the battery, but its related components or control dependencies have not been traced; changed-cell limits and monitoring may propagate beyond the BMS itself.",
+        "tool_name": "get_related_components",
+        "arguments": {
+          "component_id": "BMS-001"
+        }
+      },
+      {
+        "gap_category": "Requirements",
+        "reason": "REQ-008 is tied to the battery’s baseline mass, but its detail was not retrieved; its acceptance criterion matters if the changed pack’s mass differs.",
+        "tool_name": "get_requirement",
+        "arguments": {
+          "requirement_id": "REQ-008"
+        }
+      },
+      {
+        "gap_category": "Validation / verification",
+        "reason": "REQ-003 sets nominal battery energy, directly relevant to an energy-density change; checking its associated validation evidence could distinguish baseline evidence from changed-configuration coverage.",
+        "tool_name": "get_validation_for_requirement",
+        "arguments": {
+          "requirement_id": "REQ-003"
+        }
+      },
+      {
+        "gap_category": "Validation / verification",
+        "reason": "REQ-013 requires battery temperature to remain within validated limits, but no changed-configuration validation was returned; its associated test evidence is important given the unknown new-cell thermal behavior.",
+        "tool_name": "get_validation_for_requirement",
+        "arguments": {
+          "requirement_id": "REQ-013"
+        }
+      }
+    ]
+  },
+  "scored_candidates": [
+    {
+      "entity_id": "BAT-001",
+      "impact_level": "Direct",
+      "direct_change_evidence": true,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": true,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "ECR-002 explicitly changes BAT-001 to a higher-energy-density cell; the changed configuration requires specification and validation disposition.",
+      "evidence_score": 9,
+      "included": true,
+      "decision_reason": "Included because direct change evidence is present."
+    },
+    {
+      "entity_id": "BMS-001",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "BAT-001 is managed by BMS-001; changed-cell operating limits and monitoring compatibility warrant review.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "THM-001",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": true,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "BAT-001 is cooled by THM-001, and new-cell thermal behavior is unspecified; reassess cooling and battery temperature validation.",
+      "evidence_score": 6,
+      "included": true,
+      "decision_reason": "Included because evidence score 6 meets threshold 4."
+    },
+    {
+      "entity_id": "ENC-001",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "BAT-001 is housed in ENC-001; unspecified changed-pack dimensions make fit and packaging compatibility a specific review item.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "CHR-001",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "CHR-001 charges BAT-001; compatibility with the changed cells and their unspecified charge limits should be verified.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "FRM-001",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "BAT-001 is mounted on FRM-001; changed-pack mass or dimensions, which are not provided, could affect mounting compatibility.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "REQ-003",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": true,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "REQ-003 sets nominal battery energy at 2.88 kWh, and BAT-001's energy specification references it; assess whether the changed configuration still satisfies it.",
+      "evidence_score": 6,
+      "included": true,
+      "decision_reason": "Included because evidence score 6 meets threshold 4."
+    },
+    {
+      "entity_id": "REQ-004",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": false,
+      "engineering_consequence": true,
+      "requirement_validation_support": true,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "REQ-004 requires battery thermal protection; changed-cell thermal behavior is unknown, supporting verification of protection for the changed configuration.",
+      "evidence_score": 4,
+      "included": true,
+      "decision_reason": "Included because evidence score 4 meets threshold 4."
+    },
+    {
+      "entity_id": "REQ-013",
+      "impact_level": "First-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": false,
+      "engineering_consequence": true,
+      "requirement_validation_support": true,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "REQ-013 requires battery temperature within validated limits; verify continued satisfaction for the changed cells.",
+      "evidence_score": 4,
+      "included": true,
+      "decision_reason": "Included because evidence score 4 meets threshold 4."
+    },
+    {
+      "entity_id": "TEST-004",
+      "impact_level": "Lifecycle",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": true,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "TEST-004 verifies REQ-013's battery temperature limits; its passed result does not establish coverage of the changed cell configuration, so retesting is warranted.",
+      "evidence_score": 6,
+      "included": true,
+      "decision_reason": "Included because evidence score 6 meets threshold 4."
+    },
+    {
+      "entity_id": "FAN-001",
+      "impact_level": "Second-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": true,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "FAN-001 supports the battery cooling plate; changed-cell thermal behavior could affect cooling demand and the thermal-limit verification path.",
+      "evidence_score": 6,
+      "included": true,
+      "decision_reason": "Included because evidence score 6 meets threshold 4."
+    },
+    {
+      "entity_id": "SW-001",
+      "impact_level": "Second-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "SW-001 communicates with the BMS; changed-cell limits may require review of battery-control settings or monitoring behavior.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "SNS-001",
+      "impact_level": "Second-order",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "SNS-001 provides data to the BMS; verify that sensing and monitoring remain suitable for the changed cells and their unspecified limits.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "BOM-X1-001",
+      "impact_level": "Lifecycle",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "The released BOM lists BAT-001 Rev A; determine whether the changed pack requires a component revision or BOM configuration update.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "MFG-001",
+      "impact_level": "Lifecycle",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "MFG-001 is the cell-module assembly process for BAT-001; assess whether the changed cell requires process or control updates.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    },
+    {
+      "entity_id": "MFG-002",
+      "impact_level": "Lifecycle",
+      "direct_change_evidence": false,
+      "explicit_relationship": true,
+      "engineering_consequence": true,
+      "requirement_validation_support": false,
+      "lifecycle_action": true,
+      "context_only": false,
+      "evidence_summary": "MFG-002 is the battery-pack final assembly process for BAT-001; assess process suitability for the changed pack configuration.",
+      "evidence_score": 5,
+      "included": true,
+      "decision_reason": "Included because evidence score 5 meets threshold 4."
+    }
+  ],
+  "prediction": {
+    "ecr_id": "ECR-002",
+    "predicted_impacts": [
+      {
+        "entity_id": "BAT-001",
+        "impact_level": "Direct",
+        "confidence": "Confirmed",
+        "reason": "ECR-002 explicitly changes BAT-001 to a higher-energy-density cell; the changed configuration requires specification and validation disposition.",
+        "evidence_score": 9
+      },
+      {
+        "entity_id": "BMS-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "BAT-001 is managed by BMS-001; changed-cell operating limits and monitoring compatibility warrant review.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "THM-001",
+        "impact_level": "First-order",
+        "confidence": "Strong candidate",
+        "reason": "BAT-001 is cooled by THM-001, and new-cell thermal behavior is unspecified; reassess cooling and battery temperature validation.",
+        "evidence_score": 6
+      },
+      {
+        "entity_id": "ENC-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "BAT-001 is housed in ENC-001; unspecified changed-pack dimensions make fit and packaging compatibility a specific review item.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "CHR-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "CHR-001 charges BAT-001; compatibility with the changed cells and their unspecified charge limits should be verified.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "FRM-001",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "BAT-001 is mounted on FRM-001; changed-pack mass or dimensions, which are not provided, could affect mounting compatibility.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "REQ-003",
+        "impact_level": "First-order",
+        "confidence": "Strong candidate",
+        "reason": "REQ-003 sets nominal battery energy at 2.88 kWh, and BAT-001's energy specification references it; assess whether the changed configuration still satisfies it.",
+        "evidence_score": 6
+      },
+      {
+        "entity_id": "REQ-004",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "REQ-004 requires battery thermal protection; changed-cell thermal behavior is unknown, supporting verification of protection for the changed configuration.",
+        "evidence_score": 4
+      },
+      {
+        "entity_id": "REQ-013",
+        "impact_level": "First-order",
+        "confidence": "Review candidate",
+        "reason": "REQ-013 requires battery temperature within validated limits; verify continued satisfaction for the changed cells.",
+        "evidence_score": 4
+      },
+      {
+        "entity_id": "TEST-004",
+        "impact_level": "Lifecycle",
+        "confidence": "Strong candidate",
+        "reason": "TEST-004 verifies REQ-013's battery temperature limits; its passed result does not establish coverage of the changed cell configuration, so retesting is warranted.",
+        "evidence_score": 6
+      },
+      {
+        "entity_id": "FAN-001",
+        "impact_level": "Second-order",
+        "confidence": "Strong candidate",
+        "reason": "FAN-001 supports the battery cooling plate; changed-cell thermal behavior could affect cooling demand and the thermal-limit verification path.",
+        "evidence_score": 6
+      },
+      {
+        "entity_id": "SW-001",
+        "impact_level": "Second-order",
+        "confidence": "Review candidate",
+        "reason": "SW-001 communicates with the BMS; changed-cell limits may require review of battery-control settings or monitoring behavior.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "SNS-001",
+        "impact_level": "Second-order",
+        "confidence": "Review candidate",
+        "reason": "SNS-001 provides data to the BMS; verify that sensing and monitoring remain suitable for the changed cells and their unspecified limits.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "BOM-X1-001",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "The released BOM lists BAT-001 Rev A; determine whether the changed pack requires a component revision or BOM configuration update.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "MFG-001",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "MFG-001 is the cell-module assembly process for BAT-001; assess whether the changed cell requires process or control updates.",
+        "evidence_score": 5
+      },
+      {
+        "entity_id": "MFG-002",
+        "impact_level": "Lifecycle",
+        "confidence": "Review candidate",
+        "reason": "MFG-002 is the battery-pack final assembly process for BAT-001; assess process suitability for the changed pack configuration.",
+        "evidence_score": 5
+      }
+    ]
+  },
+  "retrieval_metrics": {
+    "reasoning_cycles": 6,
+    "tool_calls_requested": 20,
+    "tool_calls_executed": 18,
+    "blocked_calls": 2,
+    "benchmark_withheld_results": 0,
+    "cache_hits": 0,
+    "tool_errors": 0,
+    "input_tokens": 23327,
+    "output_tokens": 5017,
+    "total_tokens": 28344,
+    "elapsed_seconds": 62.19
+  },
+  "planner_metrics": {
+    "input_tokens": 6985,
+    "output_tokens": 1184,
+    "total_tokens": 8169,
+    "elapsed_seconds": 10.784
+  },
+  "gap_execution_metrics": {
+    "gap_calls_executed": 5,
+    "duplicate_calls_skipped": 0,
+    "errors": 1,
+    "elapsed_seconds": 0.009
+  },
+  "scorer_metrics": {
+    "input_tokens": 8195,
+    "output_tokens": 3106,
+    "total_tokens": 11301,
+    "elapsed_seconds": 25.609
+  },
+  "combined_metrics": {
+    "tool_calls_executed": 23,
+    "total_tokens": 47814,
+    "elapsed_seconds": 98.592
+  },
+  "candidate_scorer_answer": "The cell change directly affects BAT-001. Evidence supports targeted compatibility and validation review for connected battery-management, thermal, charging, packaging, and mounting paths, plus the linked thermal test and relevant configuration/manufacturing records. The evidence does not establish that supplier approval, product membership, or unrelated service history is affected.\n\nCANDIDATE_SCORE_JSON\n\n{\n  \"ecr_id\": \"ECR-002\",\n  \"candidates\": [\n    {\n      \"entity_id\": \"BAT-001\",\n      \"impact_level\": \"Direct\",\n      \"direct_change_evidence\": true,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": true,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"ECR-002 explicitly changes BAT-001 to a higher-energy-density cell; the changed configuration requires specification and validation disposition.\"\n    },\n    {\n      \"entity_id\": \"BMS-001\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"BAT-001 is managed by BMS-001; changed-cell operating limits and monitoring compatibility warrant review.\"\n    },\n    {\n      \"entity_id\": \"THM-001\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": true,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"BAT-001 is cooled by THM-001, and new-cell thermal behavior is unspecified; reassess cooling and battery temperature validation.\"\n    },\n    {\n      \"entity_id\": \"ENC-001\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"BAT-001 is housed in ENC-001; unspecified changed-pack dimensions make fit and packaging compatibility a specific review item.\"\n    },\n    {\n      \"entity_id\": \"CHR-001\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"CHR-001 charges BAT-001; compatibility with the changed cells and their unspecified charge limits should be verified.\"\n    },\n    {\n      \"entity_id\": \"FRM-001\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"BAT-001 is mounted on FRM-001; changed-pack mass or dimensions, which are not provided, could affect mounting compatibility.\"\n    },\n    {\n      \"entity_id\": \"REQ-003\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": true,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"REQ-003 sets nominal battery energy at 2.88 kWh, and BAT-001's energy specification references it; assess whether the changed configuration still satisfies it.\"\n    },\n    {\n      \"entity_id\": \"REQ-004\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": false,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": true,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"REQ-004 requires battery thermal protection; changed-cell thermal behavior is unknown, supporting verification of protection for the changed configuration.\"\n    },\n    {\n      \"entity_id\": \"REQ-013\",\n      \"impact_level\": \"First-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": false,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": true,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"REQ-013 requires battery temperature within validated limits; verify continued satisfaction for the changed cells.\"\n    },\n    {\n      \"entity_id\": \"TEST-004\",\n      \"impact_level\": \"Lifecycle\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": true,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"TEST-004 verifies REQ-013's battery temperature limits; its passed result does not establish coverage of the changed cell configuration, so retesting is warranted.\"\n    },\n    {\n      \"entity_id\": \"FAN-001\",\n      \"impact_level\": \"Second-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": true,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"FAN-001 supports the battery cooling plate; changed-cell thermal behavior could affect cooling demand and the thermal-limit verification path.\"\n    },\n    {\n      \"entity_id\": \"SW-001\",\n      \"impact_level\": \"Second-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"SW-001 communicates with the BMS; changed-cell limits may require review of battery-control settings or monitoring behavior.\"\n    },\n    {\n      \"entity_id\": \"SNS-001\",\n      \"impact_level\": \"Second-order\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"SNS-001 provides data to the BMS; verify that sensing and monitoring remain suitable for the changed cells and their unspecified limits.\"\n    },\n    {\n      \"entity_id\": \"BOM-X1-001\",\n      \"impact_level\": \"Lifecycle\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"The released BOM lists BAT-001 Rev A; determine whether the changed pack requires a component revision or BOM configuration update.\"\n    },\n    {\n      \"entity_id\": \"MFG-001\",\n      \"impact_level\": \"Lifecycle\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"MFG-001 is the cell-module assembly process for BAT-001; assess whether the changed cell requires process or control updates.\"\n    },\n    {\n      \"entity_id\": \"MFG-002\",\n      \"impact_level\": \"Lifecycle\",\n      \"direct_change_evidence\": false,\n      \"explicit_relationship\": true,\n      \"engineering_consequence\": true,\n      \"requirement_validation_support\": false,\n      \"lifecycle_action\": true,\n      \"context_only\": false,\n      \"evidence_summary\": \"MFG-002 is the battery-pack final assembly process for BAT-001; assess process suitability for the changed pack configuration.\"\n    }\n  ]\n}"
+}

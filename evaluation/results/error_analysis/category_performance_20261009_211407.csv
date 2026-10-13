@@ -1,0 +1,11 @@
+Category,Ground_Truth_Total,Predicted_Total,TP,FP,FN,Precision,Recall,F1
+BOM / Configuration,0,3,0,3,0,0.0,0.0,0.0
+Component,46,33,28,5,18,0.848485,0.608696,0.708861
+Design Specification,0,1,0,1,0,0.0,0.0,0.0
+Document,0,3,0,3,0,0.0,0.0,0.0
+Manufacturing,5,7,4,3,1,0.571429,0.8,0.666667
+Product,0,7,0,7,0,0.0,0.0,0.0
+Requirement,17,15,6,9,11,0.4,0.352941,0.375
+Service,2,0,0,0,2,0.0,0.0,0.0
+Supplier,2,6,1,5,1,0.166667,0.5,0.25
+Validation,9,9,4,5,5,0.444444,0.444444,0.444444

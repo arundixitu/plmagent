@@ -1,0 +1,4 @@
+Aureon Phase 5E Frozen Ground Truth
+==================================================
+File: Phase5E_Frozen_Ground_Truth.xlsx
+SHA-256: 2ec23d36c73d1ce33b06f4766b1d804db9567d9cd4726646a61563efc5a7294a

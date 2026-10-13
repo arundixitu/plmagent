@@ -1,0 +1,653 @@
+{
+  "analysis_name": "Aureon Held-Out Benchmark Error Pattern Analysis",
+  "analysis_phase": "5C.3",
+  "created_at": "2026-10-09T21:14:07.709556",
+  "source_benchmark": "D:\\Aureon_PLMAgent\\evaluation\\results\\heldout_benchmark_suite_20261008_234848.json",
+  "analysis": {
+    "successful_cases": 9,
+    "category_results": [
+      {
+        "category": "BOM / Configuration",
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "ground_truth_total": 0,
+        "predicted_total": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "category": "Component",
+        "tp": 28,
+        "fp": 5,
+        "fn": 18,
+        "ground_truth_total": 46,
+        "predicted_total": 33,
+        "precision": 0.8484848484848485,
+        "recall": 0.6086956521739131,
+        "f1": 0.7088607594936709
+      },
+      {
+        "category": "Design Specification",
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "ground_truth_total": 0,
+        "predicted_total": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "category": "Document",
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "ground_truth_total": 0,
+        "predicted_total": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "category": "Manufacturing",
+        "tp": 4,
+        "fp": 3,
+        "fn": 1,
+        "ground_truth_total": 5,
+        "predicted_total": 7,
+        "precision": 0.5714285714285714,
+        "recall": 0.8,
+        "f1": 0.6666666666666666
+      },
+      {
+        "category": "Product",
+        "tp": 0,
+        "fp": 7,
+        "fn": 0,
+        "ground_truth_total": 0,
+        "predicted_total": 7,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "category": "Requirement",
+        "tp": 6,
+        "fp": 9,
+        "fn": 11,
+        "ground_truth_total": 17,
+        "predicted_total": 15,
+        "precision": 0.4,
+        "recall": 0.35294117647058826,
+        "f1": 0.37500000000000006
+      },
+      {
+        "category": "Service",
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "ground_truth_total": 2,
+        "predicted_total": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "category": "Supplier",
+        "tp": 1,
+        "fp": 5,
+        "fn": 1,
+        "ground_truth_total": 2,
+        "predicted_total": 6,
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1": 0.25
+      },
+      {
+        "category": "Validation",
+        "tp": 4,
+        "fp": 5,
+        "fn": 5,
+        "ground_truth_total": 9,
+        "predicted_total": 9,
+        "precision": 0.4444444444444444,
+        "recall": 0.4444444444444444,
+        "f1": 0.4444444444444444
+      }
+    ],
+    "missed_categories": {
+      "Component": 18,
+      "Requirement": 11,
+      "Validation": 5,
+      "Manufacturing": 1,
+      "Service": 2,
+      "Supplier": 1
+    },
+    "extra_categories": {
+      "Document": 3,
+      "Product": 7,
+      "Supplier": 5,
+      "Component": 5,
+      "Manufacturing": 3,
+      "Requirement": 9,
+      "Design Specification": 1,
+      "Validation": 5,
+      "BOM / Configuration": 3
+    },
+    "most_frequently_missed_entities": [
+      [
+        "FRM-001",
+        3
+      ],
+      [
+        "REQ-008",
+        3
+      ],
+      [
+        "CON-001",
+        3
+      ],
+      [
+        "REQ-005",
+        3
+      ],
+      [
+        "BAT-001",
+        3
+      ],
+      [
+        "CAB-001",
+        2
+      ],
+      [
+        "SW-001",
+        2
+      ],
+      [
+        "INV-001",
+        2
+      ],
+      [
+        "REQ-004",
+        2
+      ],
+      [
+        "REQ-013",
+        2
+      ],
+      [
+        "ENC-001",
+        1
+      ],
+      [
+        "TEST-006",
+        1
+      ],
+      [
+        "TEST-007",
+        1
+      ],
+      [
+        "MFG-010",
+        1
+      ],
+      [
+        "SRV-010",
+        1
+      ],
+      [
+        "TEST-010",
+        1
+      ],
+      [
+        "FAN-001",
+        1
+      ],
+      [
+        "REQ-015",
+        1
+      ],
+      [
+        "SNS-001",
+        1
+      ],
+      [
+        "SUP-002",
+        1
+      ],
+      [
+        "TEST-015",
+        1
+      ],
+      [
+        "SRV-009",
+        1
+      ],
+      [
+        "TEST-016",
+        1
+      ]
+    ],
+    "most_frequent_extra_entities": [
+      [
+        "PROD-X1",
+        7
+      ],
+      [
+        "TEST-007",
+        2
+      ],
+      [
+        "DOC-006",
+        1
+      ],
+      [
+        "SUP-003",
+        1
+      ],
+      [
+        "BMS-001",
+        1
+      ],
+      [
+        "MFG-007",
+        1
+      ],
+      [
+        "REQ-007",
+        1
+      ],
+      [
+        "SUP-006",
+        1
+      ],
+      [
+        "THM-001",
+        1
+      ],
+      [
+        "REQ-004",
+        1
+      ],
+      [
+        "REQ-019",
+        1
+      ],
+      [
+        "REQ-006",
+        1
+      ],
+      [
+        "SPEC-009",
+        1
+      ],
+      [
+        "SUP-005",
+        1
+      ],
+      [
+        "TEST-006",
+        1
+      ],
+      [
+        "BOM-X1-008",
+        1
+      ],
+      [
+        "DOC-007",
+        1
+      ],
+      [
+        "SUP-008",
+        1
+      ],
+      [
+        "TEST-009",
+        1
+      ],
+      [
+        "BOM-X1-007",
+        1
+      ],
+      [
+        "DOC-008",
+        1
+      ],
+      [
+        "SUP-007",
+        1
+      ],
+      [
+        "TEST-008",
+        1
+      ],
+      [
+        "CAB-001",
+        1
+      ],
+      [
+        "CON-001",
+        1
+      ],
+      [
+        "FRM-001",
+        1
+      ],
+      [
+        "MFG-001",
+        1
+      ],
+      [
+        "MFG-002",
+        1
+      ],
+      [
+        "REQ-002",
+        1
+      ],
+      [
+        "REQ-003",
+        1
+      ],
+      [
+        "REQ-008",
+        1
+      ],
+      [
+        "REQ-014",
+        1
+      ],
+      [
+        "BOM-X1-003",
+        1
+      ],
+      [
+        "REQ-010",
+        1
+      ]
+    ],
+    "most_frequent_correct_entities": [
+      [
+        "BAT-001",
+        6
+      ],
+      [
+        "THM-001",
+        3
+      ],
+      [
+        "CAB-001",
+        3
+      ],
+      [
+        "ENC-001",
+        3
+      ],
+      [
+        "CHR-001",
+        2
+      ],
+      [
+        "INV-001",
+        2
+      ],
+      [
+        "MTR-001",
+        2
+      ],
+      [
+        "CON-001",
+        2
+      ],
+      [
+        "REQ-005",
+        2
+      ],
+      [
+        "FAN-001",
+        1
+      ],
+      [
+        "MFG-006",
+        1
+      ],
+      [
+        "REQ-013",
+        1
+      ],
+      [
+        "TEST-004",
+        1
+      ],
+      [
+        "CHG-001",
+        1
+      ],
+      [
+        "REQ-017",
+        1
+      ],
+      [
+        "TEST-005",
+        1
+      ],
+      [
+        "REQ-006",
+        1
+      ],
+      [
+        "SW-001",
+        1
+      ],
+      [
+        "MFG-008",
+        1
+      ],
+      [
+        "TEST-008",
+        1
+      ],
+      [
+        "MFG-009",
+        1
+      ],
+      [
+        "TEST-009",
+        1
+      ],
+      [
+        "FRM-001",
+        1
+      ],
+      [
+        "REQ-008",
+        1
+      ],
+      [
+        "BMS-001",
+        1
+      ],
+      [
+        "SUP-001",
+        1
+      ],
+      [
+        "MFG-016",
+        1
+      ]
+    ],
+    "per_ecr_errors": [
+      {
+        "ecr_id": "ECR-004",
+        "tp": 6,
+        "fp": 3,
+        "fn": 3,
+        "false_positive_entities": [
+          "DOC-006",
+          "PROD-X1",
+          "SUP-003"
+        ],
+        "false_negative_entities": [
+          "ENC-001",
+          "FRM-001",
+          "REQ-008"
+        ]
+      },
+      {
+        "ecr_id": "ECR-005",
+        "tp": 5,
+        "fp": 6,
+        "fn": 3,
+        "false_positive_entities": [
+          "BMS-001",
+          "MFG-007",
+          "PROD-X1",
+          "REQ-007",
+          "SUP-006",
+          "THM-001"
+        ],
+        "false_negative_entities": [
+          "CAB-001",
+          "CON-001",
+          "REQ-005"
+        ]
+      },
+      {
+        "ecr_id": "ECR-006",
+        "tp": 4,
+        "fp": 3,
+        "fn": 5,
+        "false_positive_entities": [
+          "PROD-X1",
+          "REQ-004",
+          "REQ-019"
+        ],
+        "false_negative_entities": [
+          "BAT-001",
+          "CON-001",
+          "REQ-005",
+          "SW-001",
+          "TEST-006"
+        ]
+      },
+      {
+        "ecr_id": "ECR-007",
+        "tp": 3,
+        "fp": 5,
+        "fn": 5,
+        "false_positive_entities": [
+          "PROD-X1",
+          "REQ-006",
+          "SPEC-009",
+          "SUP-005",
+          "TEST-006"
+        ],
+        "false_negative_entities": [
+          "BAT-001",
+          "CAB-001",
+          "CON-001",
+          "REQ-005",
+          "TEST-007"
+        ]
+      },
+      {
+        "ecr_id": "ECR-008",
+        "tp": 5,
+        "fp": 5,
+        "fn": 4,
+        "false_positive_entities": [
+          "BOM-X1-008",
+          "DOC-007",
+          "SUP-008",
+          "TEST-007",
+          "TEST-009"
+        ],
+        "false_negative_entities": [
+          "BAT-001",
+          "FRM-001",
+          "INV-001",
+          "REQ-008"
+        ]
+      },
+      {
+        "ecr_id": "ECR-009",
+        "tp": 6,
+        "fp": 6,
+        "fn": 1,
+        "false_positive_entities": [
+          "BOM-X1-007",
+          "DOC-008",
+          "PROD-X1",
+          "SUP-007",
+          "TEST-007",
+          "TEST-008"
+        ],
+        "false_negative_entities": [
+          "INV-001"
+        ]
+      },
+      {
+        "ecr_id": "ECR-013",
+        "tp": 4,
+        "fp": 1,
+        "fn": 3,
+        "false_positive_entities": [
+          "PROD-X1"
+        ],
+        "false_negative_entities": [
+          "MFG-010",
+          "SRV-010",
+          "TEST-010"
+        ]
+      },
+      {
+        "ecr_id": "ECR-015",
+        "tp": 6,
+        "fp": 10,
+        "fn": 8,
+        "false_positive_entities": [
+          "CAB-001",
+          "CON-001",
+          "FRM-001",
+          "MFG-001",
+          "MFG-002",
+          "PROD-X1",
+          "REQ-002",
+          "REQ-003",
+          "REQ-008",
+          "REQ-014"
+        ],
+        "false_negative_entities": [
+          "FAN-001",
+          "REQ-004",
+          "REQ-013",
+          "REQ-015",
+          "SNS-001",
+          "SUP-002",
+          "SW-001",
+          "TEST-015"
+        ]
+      },
+      {
+        "ecr_id": "ECR-016",
+        "tp": 4,
+        "fp": 2,
+        "fn": 6,
+        "false_positive_entities": [
+          "BOM-X1-003",
+          "REQ-010"
+        ],
+        "false_negative_entities": [
+          "FRM-001",
+          "REQ-004",
+          "REQ-008",
+          "REQ-013",
+          "SRV-009",
+          "TEST-016"
+        ]
+      }
+    ]
+  }
+}

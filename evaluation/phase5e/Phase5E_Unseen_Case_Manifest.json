@@ -1,0 +1,68 @@
+{
+  "benchmark_name": "Aureon Phase 5E Prospective Unseen Evaluation Set",
+  "created_at": "2026-10-09T21:49:50.811717",
+  "purpose": "Prospective comparison of frozen D1 against frozen D2.2 after expert ground truth is created.",
+  "evaluation_ecrs": [
+    "ECR-002",
+    "ECR-003",
+    "ECR-010",
+    "ECR-011",
+    "ECR-014"
+  ],
+  "number_of_cases": 5,
+  "ground_truth_status": "NOT YET CREATED",
+  "agent_execution_allowed": false,
+  "cases": [
+    {
+      "ECR_ID": "ECR-002",
+      "Change_Title": "Increase battery energy density",
+      "Primary_Component_ID": "BAT-001",
+      "Change_Description": "Baseline -> higher energy density cell",
+      "Risk": "Medium",
+      "Status": "Closed"
+    },
+    {
+      "ECR_ID": "ECR-003",
+      "Change_Title": "Reduce battery enclosure mass",
+      "Primary_Component_ID": "ENC-001",
+      "Change_Description": "Baseline -> reduced mass concept",
+      "Risk": "Medium",
+      "Status": "Closed"
+    },
+    {
+      "ECR_ID": "ECR-010",
+      "Change_Title": "Update battery thermal control strategy",
+      "Primary_Component_ID": "SW-001",
+      "Change_Description": "Baseline -> revised strategy",
+      "Risk": "Medium",
+      "Status": "Closed"
+    },
+    {
+      "ECR_ID": "ECR-011",
+      "Change_Title": "Add battery temperature sensor",
+      "Primary_Component_ID": "SNS-001",
+      "Change_Description": "2 -> 4 sensors",
+      "Risk": "Medium",
+      "Status": "Closed"
+    },
+    {
+      "ECR_ID": "ECR-014",
+      "Change_Title": "Update vehicle control software",
+      "Primary_Component_ID": "SW-001",
+      "Change_Description": "Rev E -> Rev F",
+      "Risk": "Medium",
+      "Status": "Closed"
+    }
+  ],
+  "source_file_sha256": {
+    "10_Engineering_Changes.xlsx": "cc7cf3e47e1ad1a2a3c47b4d43da02b8857c7190b0ddbd7f7b53f8c46361a848",
+    "04_Component_Master.xlsx": "0aa8e60f3dc976d17d35e5eb43e656db9f0d181ae5d6787c73dfe20848c804c1",
+    "06_Product_Requirements.xlsx": "872cb096ad7ae828bf167588a9081d4bb1f555e3b39ee4dd87f51a3cfe7125a0",
+    "13_Test_Validation_Records.xlsx": "fcbdd8b7900722c69d6500f1d4d6eaf9f9fe2e10644304b940901f897431acef",
+    "12_Manufacturing_Records.xlsx": "28f2be83790d471349f2dc541a5b6ad7e552b6f0395c15f57614e16aa515e782",
+    "09_Supplier_Records.xlsx": "0fd87717b3ab6c3ade13da9e759bee08e63fa213ae4d1212dabfd0a7f8ad2f73",
+    "14_Service_Records.xlsx": "bdfa7746aec420943a369f4b317cdf2f9d4b48139b2799a1c8e7aaf987c6b445",
+    "16_Document_Control.xlsx": "dd4d69dc0fa4d2c3db2b5a7329f76b77037677a0e1cda92251837854ec12e2c3",
+    "18_Relationship_Matrix.xlsx": "9d2a472c317b088b091bac9180aad9de43cdbf17c94929007ad45ae191a07ee8"
+  }
+}

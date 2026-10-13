@@ -1,0 +1,130 @@
+AUREON AI-PLM AGENT
+PHASE 5E.1A — BLIND MULTI-REVIEWER PROTOCOL
+
+Created:
+2026-10-09T21:55:02.656897
+
+Prospective unseen cases:
+ECR-002, ECR-003, ECR-010, ECR-011, ECR-014
+
+============================================================
+OBJECTIVE
+============================================================
+
+Create independent expert ground-truth labels for the
+prospective Phase 5E benchmark before any D1 or D2.2
+prediction is generated.
+
+============================================================
+REVIEWERS
+============================================================
+
+Reviewer A:
+Phase5E_Reviewer_A.xlsx
+
+Reviewer B:
+Phase5E_Reviewer_B.xlsx
+
+Reviewer C:
+Phase5E_Reviewer_C.xlsx
+
+Each reviewer must work independently.
+
+============================================================
+BLINDING RULES
+============================================================
+
+While performing the independent review, a reviewer must
+not inspect:
+
+- another reviewer's workbook;
+- D1 predictions;
+- D2 predictions;
+- D2.1 predictions;
+- D2.2 predictions;
+- evaluation/predictions folders;
+- previous benchmark prediction outputs;
+- ground-truth files for other experiments when those
+  reveal answers to these cases.
+
+The agent must NOT be run on:
+ECR-002, ECR-003, ECR-010, ECR-011, ECR-014
+
+until consensus ground truth has been frozen.
+
+============================================================
+LABELING RULE
+============================================================
+
+For each ECR, identify PLM entities that should genuinely
+be regarded as impacted or requiring engineering
+disposition because of the proposed change.
+
+Record entity IDs as semicolon-separated values.
+
+Example formatting only:
+
+BAT-001; BMS-001; REQ-014; TEST-004
+
+Do NOT use the example as guidance for any Phase 5E case.
+
+============================================================
+DO NOT INCLUDE AN ENTITY MERELY BECAUSE
+============================================================
+
+- it exists;
+- it belongs to the product;
+- it is in the BOM;
+- it is nearby in the data;
+- a supplier exists;
+- a test exists;
+- a service record exists.
+
+There must be an engineering or lifecycle impact path.
+
+============================================================
+RISK
+============================================================
+
+Select:
+
+Low
+Medium
+High
+Critical
+
+Risk should represent expert engineering judgement for the
+change as a whole.
+
+============================================================
+RATIONALE
+============================================================
+
+Briefly explain the engineering path behind the selected
+entities.
+
+The rationale is especially important when including
+second-order or lifecycle impacts.
+
+============================================================
+COMPLETION
+============================================================
+
+Set each case's Review_Status to:
+
+Completed
+
+only after the reviewer has completed that case.
+
+============================================================
+CONSENSUS
+============================================================
+
+Do not edit Phase5E_Consensus.xlsx until all independent
+reviewer workbooks have been completed.
+
+Agreement analysis will be performed before the panel
+resolves disagreements.
+
+The final consensus benchmark will then be frozen and
+cryptographically hashed before agent evaluation.
